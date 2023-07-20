@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.up{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: x-large;
+    flex-wrap: wrap;
+}
+
+#name{
+    border-radius: 30px;
+    background-color: rgb(160, 188, 236);
+    padding: 15px;
+    font-size: large;
+}
+
+#dept{
+    border-radius: 30px;
+    background-color: rgb(160, 188, 236);
+    padding: 15px;
+    font-size: large;
+    margin-top: 15px;
+}
+
+#Rating{
+    border-radius: 30px;
+    background-color: rgb(160, 188, 236);
+    padding: 15px;
+    font-size: large;
+    margin-top: 15px;
+
+}
+
+.btn1{
+    cursor: pointer;
+    width: 150px;
+    border-radius: 30px;
+    background-color: rgb(160, 188, 236);
+    padding: 15px;
+    font-size: large;
+    margin:15px 0px 0px 45px;
+
+}
+
+.box{
+    display: flex;
+    height: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin: 20px 0px 0px 70px;
+    
+}
+
+.card{
+    background-color: pink;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 100px;
+    width: 500px;
+    margin: 10px;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+
+ .btn2{
+    position:relative;
+    top: 150px;
+    right: 50%;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(160, 188, 236);
+    /* padding: 15px; */
+    font-size: large;
+} 
+
+@media (max-width:450px) {
+    .btn2{
+        position: relative;
+        right: 10px;
+    }
+
+    .box{
+        margin-left: 10px;
+    }
+    
+}
